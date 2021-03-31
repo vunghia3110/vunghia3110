@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="mainbox" class="container">
+        <h1>Đăng ký</h1>
+        <p class="message">Nhanh chóng và dễ dàng</p>
+        <input class="textbox" type="text" placeholder="Họ"><br>
+        <div id="errorHo"></div>
+        <input class="textbox" type="text" placeholder="Tên"><br>
+        <div id="errorTen"></div>
+        <input class="textbox" type="email" placeholder="Địa chỉ Email"><br>
+        <div id="errorEmail"></div>
+        <input class="textbox" type="text" placeholder="Số điện thoại"><br>
+        <div id="errorPhone"></div>
+        <select name="sex" id="sex">
+            <option value="male">Nam</option>
+            <option value="female">Nữ</option>
+          </select><br>
+        <input class="textbox" type="date" placeholder=""><br>
+        <p class="message">Bằng cách nhấp vào đăng ký, bạn đồng ý với điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua sms và hủy nhận bất kỳ lúc nào.</p>
+        <input onclick="signUpCheck()" class="btn btn-primary btn-lg btn-block" type="button" value="Đăng ký">
+        <div id="success"></div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>  
+</body>
+</html>

@@ -1,0 +1,33 @@
+ 
+ *** Questions List ***
+
+ Q.1: Hà Nội có mấy cái hồ ?
+       option 0 : 19
+       option 1 : 20
+       option 2 : 21
+       option 3 : 22
+
+ Q.2: Việt Nam có bao nhiêu tỉnh thành ?
+       option 0 : 61
+       option 1 : 62
+       option 2 : 63
+       option 3 : 64
+
+Q.3: 3 + 4 = 7 ?
+       option 0 : true
+       option 1 : false
+
+
+Q.4:  Nghề nghiệp chính của Taylor Swift?
+      option 0 : Singer
+      option 1 : Actress
+      option 2 : Dancer
+
+Q.5: 2 + 6 = ?
+      option 0 : 8
+      option 1 : 9
+      option 2 : 10
+      option 3 : 11
+    
+
+

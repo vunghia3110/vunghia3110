@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6fe29db4c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+<body>
+    <div class="container">
+      <div class="header">
+        <h1>Invoice</h1>
+        <p>Vu Nghia</p>
+        <p>Ha Noi, Viet Nam</p>
+        <p>0973631823</p>
+      </div>
+        
+        <table id="myTable" class="table table-striped">
+            <thead id="tableHeading">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">Quatity</th>
+                <th scope="col">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody id="tableBody">
+              <tr id="row1">
+                <th scope="row">1</th>
+                <td><span contenteditable="true">Doraemon</span></td>
+                <td><span>$</span><span contenteditable="true" class="money money1" onkeyup="calculateSubtotal(1)">150.00</span></td>
+                <td><span onclick="quantityMinus(1)"><i class="fas fa-minus-square"></i>
+                </span><span class="qty qty1">10</span><span onclick="quantityPlus(1)">
+                  <i class="fas fa-plus-square"></i></span></td>
+                <td><span>$</span><span class="subTotal subTotal1"></span></td>
+              </tr>
+              <tr id="row2">
+                <th scope="row">2</th>
+                <td><span contenteditable="true">Conan</span></td>
+                <td><span>$</span><span contenteditable="true" class="money money2" onkeyup="calculateSubtotal(2)">250.00</span></td>
+                <td><span onclick="quantityMinus(2)"><i class="fas fa-minus-square"></i>
+                </span><span class="qty qty2">20</span><span onclick="quantityPlus(2)">
+                  <i class="fas fa-plus-square"></i></span></td>
+                <td><span>$</span><span class="subTotal subTotal2"></span></td>
+              </tr>
+              <tr id="row3">
+                <th scope="row">3</th>
+                <td><span contenteditable="true">Dragon Ball</span></td>
+                <td><span>$</span><span contenteditable="true" class="money money3" onkeyup="calculateSubtotal(3)">150.00</span></td>
+                <td><span onclick="quantityMinus(3)"><i class="fas fa-minus-square"></i>
+                </span><span class="qty qty3">10</span><span onclick="quantityPlus(3)">
+                  <i class="fas fa-plus-square"></i></span></td>
+                <td><span>$</span><span class="subTotal subTotal3"></span></td>
+              </tr>
+            </tbody>
+            <tfoot>
+                <tr><th><span onclick="addRow()"><i class="far fa-plus-square"></i>
+                </span></th></tr>
+                <tr>
+                    <th scope="row">Total</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><span>$</span><span class="total"></span></td>
+                  </tr>
+            </tfoot>
+          </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

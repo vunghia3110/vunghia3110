@@ -1,0 +1,160 @@
+@media (max-width: 767.98px) { 
+    .header-text {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 0em;
+    }
+    .header-btn {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        float: right;
+    }
+    /* signup1 */
+    .sign-up {
+        background-image: url(../image/1-sea1-01.jpg);
+        height: 30em;
+        width: 100%;
+        overflow: scroll;
+    }
+    .text-center {
+        color: white;
+        padding-top: 10%;
+        font-size: 40px;
+    }
+    .form-inline {
+        padding-left: 20%;
+        margin-top: 30px;
+    }
+    .form-inline button{
+        width: 80%;
+    }
+    .form-control{
+        padding-right: 56px;
+    }
+    /* list1 */
+    .list {
+        height: 680px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 30px;
+        margin-right: 0px;
+        margin-left: 0px;
+          
+    }
+    .icon {
+        font-size: 50px;
+        text-align: center;
+        color: #007BFF;
+    }
+    .list h3 {
+        text-align: center;
+        /* font-size: 10px; */
+    }
+    h2 {
+        text-align: center;
+        /* margin-top: 20px; */
+        margin-top: 30px;
+    }
+    .list p {
+        text-align: center;
+        /* font-size: 10px; */
+    }
+    .list .col-sm-12 {
+        text-align: center;
+        padding: 0px;
+        padding-top: 0px;
+    }
+    /* Content chung */
+    .container-chung{
+        height: 600px;
+    }
+    .text-space{
+        padding-top: 12%;
+        height: 300px;
+    }   
+    #text-items{
+        padding-top: 0px;
+        margin-left: 40px;
+    } 
+    .row-reverse{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+      }
+    /* container3 */
+    .container3{
+        width: 100%;
+        overflow: scroll;
+    }
+    .container3 .image-space {
+        background-image: url(../image/2-phone.jpg);
+        height: 300px;
+    }
+    .container3 h3,p {
+        text-align: left;
+    }
+
+    /* container4 */
+    .container4{
+        width: 100%;
+        overflow: scroll;
+    }
+    .container4 .image-space {
+        background-image: url(../image/3-code.jpg);
+        height: 300px;
+    }
+    .container4 h3,p {
+        text-align: left;
+    }
+    /* container5 */
+    .container5{
+        width: 100%;
+        overflow: scroll;
+    }
+    .container5 .image-space {
+        background-image: url(../image/4-baby.jpg);
+        height: 300px;
+    }
+    .container5 h3,p {
+        text-align: left;
+    }
+    /* list people */
+    .circle-image{
+        text-align: center;
+    }
+    .circle-image img{
+        width: 5em;
+    }
+    .list .col-md-3{
+        padding-top: 15px;
+    }
+    /* sign up 2 */
+    .sign-up-2 h2{
+        padding-top: 8px;
+        margin-top: 8px;
+    }
+    .sign-up-2 {
+        background-image: url(../image/1-sea1-01.jpg);
+        height: 20em;
+        width: 100%;
+        overflow: scroll;
+    }
+    /* footer */
+    .footer .col-sm-12{
+        padding-left: 14%;
+    }
+    .footer .icon {
+        font-size: 40px;
+        color: #007BFF;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+    .footer .icon-list{
+        padding-left: 110px;
+        padding-right: 0px;
+    }
+    .link{
+        margin-top: 1em;
+    }
+    
+ }

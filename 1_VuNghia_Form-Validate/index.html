@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form method="POST" id="myForm" class="shadow my-5 bg-light p-4 rounded">
+                    <h2>Registry</h2>
+                    <p class="text-muted">Quickly, and easy</p>
+                    <hr />
+                    <div class="form-group">
+                        <label for="firstName">First name</label>
+                        <input type="text" class="form-control" id="firstName" aria-describedby="validate-firstName" placeholder="Your first name">
+                        <small id="validate-firstName" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last name</label>
+                        <input type="text" class="form-control" id="lastName" aria-describedby="validate-lastName" placeholder="Your last name">
+                        <small id="validate-lastName" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="validate-email" placeholder="your_email@domain.com">
+                        <small id="validate-email" class="form-text text-danger"></small>
+                      </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" class="form-control" id="phone" aria-describedby="validate-phone" placeholder="+84-123456789">
+                        <small id="validate-phone" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                        <select class="form-control" id="gender" aria-describedby="validate-gender">
+                          <option value = "" selected disabled>Choose gender</option>
+                          <option value = "male">Male</option>
+                          <option value = "female">Female</option>
+                          <option value = "other">Other</option>
+                        </select>
+                        <small id="validate-gender" class="form-text text-danger"></small>
+                      </div>
+                      <div class="form-group">
+                        <label for="dob">Date of birth</label>
+                        <input type="date" class="form-control" id="dob" aria-describedby="validate-dob">
+                        <small id="validate-dob" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I agree to the <a href="#">term of services</a></label>
+                      </div>
+                    <button type="submit" class="btn btn-primary btn-block w-25 mx-auto btn-lg my-3 ">Sign up</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>  
+<script src="main.js"></script>  
+</body>
+</html>

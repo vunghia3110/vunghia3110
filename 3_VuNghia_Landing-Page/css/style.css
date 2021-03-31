@@ -1,0 +1,113 @@
+.header-text {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 3em;
+}
+.header-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* signup1 */
+.sign-up {
+    background-image: url(../image/1-sea1-01.jpg);
+    height: 30em;
+    width: 100%;
+    overflow: scroll;
+}
+.text-center {
+    color: white;
+    padding-top: 10%;
+    font-size: 40px;
+}
+.form-inline {
+    padding-left: 38%;
+    margin-top: 30px;
+}
+/* list1 */
+.list {
+    height: 300px;
+    width: 100%;
+    overflow-x: scroll;
+}
+.icon {
+    font-size: 50px;
+    text-align: center;
+    color: #007BFF;
+}
+.list h3 {
+    text-align: center;
+}
+.list h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.list p {
+    text-align: center;
+}
+.list .col-md-3 {
+    padding-top: 65px;
+}
+/* content chung */
+#text-items{
+    padding-top: 50px;
+}
+.container-chung h3,p {
+    text-align: left;
+}
+/* container3 */
+.container3{
+    width: 100%;
+    height: 400px;
+}
+.container3 .image-space {
+    background-image: url(../image/2-phone.jpg);
+}
+/* container4 */
+.container4{
+    width: 100%;
+    height: 400px;
+}
+.container4 .image-space {
+    background-image: url(../image/3-code.jpg);
+}
+/* container5 */
+.container5{
+    width: 100%;
+    height: 400px;
+}
+.container5 .image-space {
+    background-image: url(../image/4-baby.jpg);
+}
+/* list people */
+.circle-image{
+    text-align: center;
+}
+.circle-image img{
+    width: 10em;
+}
+.list .col-md-3{
+    padding-top: 15px;
+}
+/* sign up 2 */
+.sign-up-2{
+    height: 20em;
+}
+.sign-up-2 h2{
+    padding-top: 2em;
+}
+.sign-up-2 {
+    background-image: url(../image/1-sea1-01.jpg);
+    height: 30em;
+    width: 100%;
+    overflow: scroll;
+}
+/* footer */
+.footer .icon {
+    font-size: 50px;
+    color: #007BFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link{
+    margin-top: 1em;
+}

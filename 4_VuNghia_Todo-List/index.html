@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fe29db4c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div id="myDIV" class="header">
+            <h2 style="margin:5px">To Do List</h2>
+            <p id="guiding" class="text-justify text-center">Enter text into the input field to add items to your list.<br>Click the "X" to remove the item from your list.<br>Click the item to mark it as complete</p>
+            <input type="text" id="myInput" placeholder="Input To do">
+            <span onclick="newElement()" class="addBtn"><i class="fas fa-plus-circle"></i> Add</span>
+        </div>
+      
+        <ul id="myUL">
+            <li>Mua gạo</li>
+            <li class="checked">Hoàn thành Freecodecamp</li>
+            <li>Hoàn thành FEE.M.L0301</li>
+        </ul>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
